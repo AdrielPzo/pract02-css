@@ -6,7 +6,7 @@ body{
     margin: 1.5rem;
 }
 header, h1 { 
-    display:grid; 
+    display:flex; 
     align-items: center;
     justify-content: center;
 }
@@ -22,7 +22,7 @@ li {
 }
 
 article{
-    display:grid;
+    display:flex;
     align-items: center; 
     justify-content: center; 
     margin:2rem;
@@ -37,6 +37,7 @@ h2{
 img{
     width:15em; 
     height:20em;
+    margin: 2rem;
 }
 
 section{
