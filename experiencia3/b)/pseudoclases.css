@@ -1,0 +1,51 @@
+a:visited { 
+
+    color: #b0cf25;  } 
+
+ul li:first-child { 
+
+    background-color: #FF5733;  
+
+    color: rgba(16, 45, 87, 0.842);  
+
+    font-weight: bold;   } 
+
+ul li:last-child { 
+
+    color: rgba(228, 195, 104, 0.842); /* Cambiar el texto a blanco cuando se pasa el mouse */ 
+
+    font-weight: bold; 
+
+    font-style: italic; 
+
+  }  
+
+  ul li:last-child:hover { 
+
+    background-color: aquamarine;  }  
+
+ ul li:hover{ 
+
+    color:rgba(5, 43, 25, 0.842); 
+
+    font-style: oblique; 
+
+  } 
+
+  ul li:nth-child(3) { 
+
+    background-color: #df98d3; 
+
+  } 
+
+  img:first-child{ 
+
+    border: #380e05; 
+
+  } 
+
+  img:active{ 
+
+    width: 350px; 
+
+  } 

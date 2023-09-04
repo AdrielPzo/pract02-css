@@ -1,0 +1,41 @@
+p::before {
+    content: "Entrada de guerra:";
+    font-weight: bold;
+  }
+  
+  /* 2. Pseudo-elemento ::after para agregar contenido después de un elemento */
+  p::after {
+    content: " Fin de registro";
+    font-style: italic;
+  }
+  
+  /* 3. Pseudo-elemento ::first-line para estilizar la primera línea de un bloque de texto */
+  p::first-line {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* 4. Pseudo-elemento ::first-letter para estilizar la primera letra de un bloque de texto */
+  p::first-letter {
+    font-size: 150%;
+    color: #410f04;
+  }
+  
+  /* 5. Pseudo-elemento ::selection para estilizar el texto seleccionado */
+  ::selection {
+    background-color: #e9d478;
+    color: #333;
+  }
+
+  h1::first-letter {
+    font-size: 200%;
+    
+   
+  color: #008000;
+    font-weight: bold;
+  }
+  
+  a::before {
+    content: "\2197"; /* Código unicode para una flecha diagonal hacia arriba y a la derecha */
+    padding-right: 4px;
+  }
