@@ -1,0 +1,12 @@
+/* Selector RGB */
+button {
+    background-color: rgb(255, 0, 0); /* Rojo */
+}
+
+div {
+    background-color: rgb(0%, 50%, 100%); /* Azul claro */
+}
+
+span {
+    background-color: rgba(0, 255, 0, 0.5); /* Verde con alfa para transparencia */
+}

@@ -1,0 +1,12 @@
+/* Selector por código hexadecimal */
+a {
+    color: #64a569; /* Naranja */
+}
+
+blockquote {
+    background-color: #66CCFF; /* Azul claro */
+}
+
+table {
+    border: 2px solid #e4dd5d; /* Verde claro */
+}

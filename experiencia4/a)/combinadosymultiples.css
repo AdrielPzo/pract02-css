@@ -1,0 +1,76 @@
+/* 1. Seleccionar el primer elemento <p> dentro de un <div> */
+div > p:first-child {
+    color: blueviolet;
+  }
+  
+  /* 2. Seleccionar un <li> dentro de un <ul> solo si está precedido por otro <li> */
+  ul > li + li {
+    color: chocolate;
+  }
+  
+  /* 3. Seleccionar un <a> dentro de un <nav> solo si es el último elemento hijo */
+  nav > a:last-child {
+    color: #002002;
+    font-style: oblique;
+  }
+  
+  /* 4. Seleccionar un <h2> que sigue inmediatamente a un <h1> */
+  h1 + h2 {
+    font-style: italic;
+    color: brown;
+  }
+  /* 5. Seleccionar un <div> que contiene un <p> con una clase específica */
+div:has(p.especial) {
+    background-color: #F0F0F0;
+    color:hotpink ;
+  }
+  
+  /* 6. Seleccionar un <ul> dentro de un <nav> y aplicar estilos a sus elementos <li> */
+  nav ul li {
+    font-size: 14px;
+    padding: 5px;
+    background-color: aquamarine;
+  }
+  
+  /* 7. Seleccionar un <a> dentro de un <li> solo si es el último hijo del <li> */
+  li:last-child > a {
+    text-decoration: underline;
+    color: #333;
+  }
+
+
+  /* Multiple*/
+  a:link {
+    
+   
+    color: blue; /* Color de texto para enlaces no visitados */
+        text-decoration: none; /* Sin subrayado por defecto */
+    }
+    
+    /* Caso 2: Estilo para enlaces visitados */
+    a:visited {
+        
+       
+    color: purple; /* Color de texto para enlaces visitados */
+    }
+    
+    /* Caso 3: Estilo para elementos con la clase "importante" */
+    .importante {
+        font-weight: bold; /* Texto en negrita */
+        
+       
+    color: red; /* Color de texto rojo */
+    }
+    
+    /* Caso 4: Estilo para elementos con la clase "resaltado" */
+    .resaltado {
+        background-color: yellow; /* Fondo amarillo */
+        border: 2px solid orange; /* Borde naranja */
+    }
+
+    ol.numerada {
+        list-style-type: decimal; /* Numeración decimal */
+        background-color: azure;
+        font-style: italic; /* Texto en cursiva */
+    }
+    

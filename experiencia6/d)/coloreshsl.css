@@ -1,0 +1,12 @@
+/* Selector por HSL */
+header {
+    background-color: hsl(120, 100%, 50%); /* Verde */
+}
+
+footer {
+    background-color: hsl(0, 100%, 50%); /* Rojo */
+}
+
+nav {
+    background-color: hsl(240, 100%, 50%); /* Azul */
+}

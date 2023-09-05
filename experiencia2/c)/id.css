@@ -1,0 +1,9 @@
+/* Selector por ID */
+#parrafo1 {
+  font-size: 24px;
+  color: red;
+}
+
+#mi-div {
+  background-color: lightblue;
+}
