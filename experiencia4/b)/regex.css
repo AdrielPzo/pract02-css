@@ -1,0 +1,22 @@
+div[id^="elemento"] {
+    background-color: #F0F0F0;
+    color: blue;
+}
+
+[class*="destacado"] {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+[data-info*="pandillas"] {
+    color: red;
+}
+
+
+a[href*="openai"] {
+    color: #FF00FF;
+}
+
+img[src*="imagen"] {
+    border: 2px solid green;
+}

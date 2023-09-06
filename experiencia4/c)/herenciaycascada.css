@@ -1,0 +1,55 @@
+.contenedor-color {
+    color: blue; /* Establece el color de texto para el contenedor */
+}
+.contenedor-fuente {
+    
+   
+    font-size: 18px; /* Establece el tamaño de fuente para el contenedor */
+    }
+ .contenedor-alineacion {
+        text-align: center; /* Establece la alineación de texto para el contenedor */
+    }
+    .contenedor-margen {
+        margin: 10px; /* Establece márgenes para el contenedor */
+    }
+    .contenedor-fondo {
+        background-color: #F0F0F0; /* Establece un fondo para el contenedor */
+    }
+    .contenedor-borde {
+        border: 1px solid #999; /* Establece un borde para el contenedor */
+    }
+    
+    /*Cascada 1*/
+    .elemento1 {
+        background-color: red; /* Fondo rojo para elemento1 */
+    }
+    
+    .elemento2 {
+        background-color: blue; /* Fondo azul para elemento2 (sobrescribe el fondo rojo) */
+    }
+/*Cascada 2*/
+    .parrafo {
+        font-size: 18px;
+        color: blue;
+    }
+    
+    span {
+        font-weight: bold; /* Hereda el tamaño y color de fuente, pero establece negrita */
+    }
+    /*Cascada 3*/
+    #contenedor {
+        background-color: gray; /* Fondo gris para el contenedor */
+    }
+    
+    .texto {
+        background-color: yellow; /* Fondo amarillo para el párrafo (sobrescribe el fondo gris) */
+    }
+    /*Cascada 4*/
+    ul {
+        list-style-type: circle; /* Establece viñetas circulares para todas las listas desordenadas */
+    }
+    
+    ul ul {
+        list-style-type: square; /* Sobrescribe y establece viñetas cuadradas para listas desordenadas anidadas */
+    }
+    /*Cascada 5*/
